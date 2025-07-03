@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0;
+}
+
+header {
+  display: flex;
+  padding: 10px 30px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.titreAgenceco {
+  font-size: 1.5em;
+  color: #029d5b;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 25px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  transition: color 0.2s ease;
+}
+nav a:hover {
+  color: #029d5b;
+}
+
+.welcome {
+  background-image: url(./assets/images/welcomeimg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* plein écran */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+  position: relative;
+}
+.surlignageWelcome {
+  color: #d5f31f;
+}
+.welcome h1 {
+  position: absolute;
+  font-size: 2.5rem;
+  max-width: 700px;
+  bottom: 100px;
+  right: 99px;
+  max-width: 600px;
+  text-align: right;
+  margin: 0;
+}
