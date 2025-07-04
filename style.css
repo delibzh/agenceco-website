@@ -125,8 +125,14 @@ nav a:hover {
 .notreEquipe h4 + p {
   color: #565e56;
   font-size: clamp(0.8rem, 1.5vw, 0.9rem);
+  text-align: center;
 }
-
+#descriptionNe {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 20px;
+  text-align: center;
+}
 .notreEquipe h1 {
   text-align: center;
   color: #029d5b;
@@ -414,13 +420,13 @@ textarea:focus {
   background-color: rgba(255, 255, 255, 0.9);
   border: 2px solid #1c2126;
   border-radius: 50%;
-  width: clamp(40px, 6vw, 50px);
-  height: clamp(40px, 6vw, 50px);
+  width: clamp(20px, 2vw, 30px);
+  height: clamp(20px, 2vw, 30px);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-size: clamp(1rem, 2vw, 1.5rem);
+  font-size: clamp(0.8rem, 1vw, 1rem);
   font-weight: bold;
 }
 
