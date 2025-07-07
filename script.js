@@ -8,3 +8,7 @@ window.addEventListener("scroll", function () {
     nav.classList.remove("scrolled");
   }
 });
+
+function toggleMenu() {
+  document.querySelector(".navMenu").classList.toggle("active");
+}
