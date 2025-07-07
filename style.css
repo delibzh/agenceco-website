@@ -454,9 +454,7 @@ nav a:hover {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   background-color: #053b44;
-  padding: clamp(30px, 5vw, 50px);
-  padding-left: clamp(20px, 5vw, 50px);
-  padding-right: clamp(20px, 5vw, 50px);
+  padding: 50px 200px;
   width: 100%;
 }
 
@@ -499,7 +497,9 @@ nav a:hover {
   width: 100%;
   font-size: clamp(0.9rem, 1.5vw, 1rem);
 }
-
+.formMessage textarea {
+  min-height: 250px;
+}
 .formulaire input::placeholder,
 .formulaire textarea::placeholder {
   color: white;
