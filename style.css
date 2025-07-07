@@ -62,7 +62,22 @@ nav a {
 nav a:hover {
   color: #029d5b;
 }
+.navFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+.navFixed.scrolled {
+  box-shadow: 0 2px 10px #053b44d7;
+}
 
+.navFixed.scrolled header {
+  padding: 5px 30px;
+}
 .welcome {
   background-image: url(./assets/images/welcomeimg.jpg);
   background-size: cover;
