@@ -275,20 +275,23 @@ nav a:hover {
   max-width: 100%;
   height: auto;
 }
+
 .imageBackgroundGris {
-  background-color: #565e6518;
-  padding: 10px;
-  border-radius: 10px;
-  display: inline-block;
+  background-color: #ababac2a; /* Fond gris */
+  padding: 20px; /* Espace autour de l'image */
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* ou une taille fixe si tu préfères */
+  min-height: 200px;
+  box-sizing: border-box; /* pour inclure padding dans la taille */
 }
 
 .imageBackgroundGris img {
-  background-color: #565e6518;
-  border-radius: 10px;
-  display: block;
   max-width: 100%;
   height: auto;
-  margin-bottom: 10px;
+  display: block;
 }
 
 .serviceInterne p {
