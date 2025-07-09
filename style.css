@@ -248,7 +248,7 @@ nav a:hover {
   font-family: "PoppinsStrong";
 }
 
-/*  SERVICES SECTION */
+/*  SERVICES */
 .services {
   text-align: center;
   padding: clamp(30px, 5vw, 40px);
@@ -287,15 +287,15 @@ nav a:hover {
 }
 
 .imageBackgroundGris {
-  background-color: #ababac2a; /* Fond gris */
-  padding: 20px; /* Espace autour de l'image */
+  background-color: #ababac2a;
+  padding: 20px;
   border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; /* ou une taille fixe si tu préfères */
+  width: 100%;
   min-height: 200px;
-  box-sizing: border-box; /* pour inclure padding dans la taille */
+  box-sizing: border-box;
 }
 
 .imageBackgroundGris img {
@@ -395,7 +395,7 @@ nav a:hover {
   font-weight: 600;
 }
 
-/* ===== GALLERY SECTION ===== */
+/* ===== GALLERY  ===== */
 .gallerie {
   display: flex;
   align-items: center;
@@ -646,7 +646,7 @@ textarea:focus {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES - Optimisations pour version basse résolutions. */
 @media (max-width: 768px) {
   .burger {
     display: block;
